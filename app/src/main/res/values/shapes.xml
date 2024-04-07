@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearance.Turn.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">@dimen/Turn_small_component_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.Turn.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">@dimen/Turn_medium_component_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.Turn.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">@dimen/Turn_large_component_corner_radius</item>
+    </style>
+
+    <dimen name="Turn_small_component_corner_radius">@dimen/_5sdp</dimen>
+    <dimen name="Turn_medium_component_corner_radius">@dimen/_9sdp</dimen>
+    <dimen name="Turn_large_component_corner_radius">@dimen/_13sdp</dimen>
+
+</resources>
