@@ -24,7 +24,8 @@ Rebuild gradle
 ## Tech Stack & Open Source Libraries
 
 - Kotlin based
-- Coroutines + Flow for asynchronous.
+- Coroutines
+- Livedata
 - Epoxy
 - Glide
 - Paging3
